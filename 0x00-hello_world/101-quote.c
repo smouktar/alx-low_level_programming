@@ -65,5 +65,5 @@ int main(void)
 	putc('1', stderr);
 	putc('9', stderr);
 	putc('\n', stderr);
-	return (0);
+	return (1);
 }
