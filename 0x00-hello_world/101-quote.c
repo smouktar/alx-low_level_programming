@@ -4,6 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
+void ola();
 int main(void)
 {
 	putc('a', stderr);
@@ -31,6 +32,11 @@ int main(void)
 	putc('i', stderr);
 	putc('s', stderr);
 	putc(' ', stderr);
+	ola();
+	return (1);
+}
+void ola()
+{
 	putc('u', stderr);
 	putc('s', stderr);
 	putc('e', stderr);
@@ -65,5 +71,4 @@ int main(void)
 	putc('1', stderr);
 	putc('9', stderr);
 	putc('\n', stderr);
-	return (1);
 }
