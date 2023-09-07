@@ -1,10 +1,10 @@
 #include <stdio.h>
+void ola(void);
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-void ola();
 int main(void)
 {
 	putc('a', stderr);
@@ -35,7 +35,12 @@ int main(void)
 	ola();
 	return (1);
 }
-void ola()
+/**
+ * ola - Continuation point
+ *
+ * Return nothing Breaking the function
+ */
+void ola(void)
 {
 	putc('u', stderr);
 	putc('s', stderr);
