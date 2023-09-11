@@ -3,8 +3,8 @@
 /**
  * main - Entry point
  *
- * Description: Generate pairs of two-digit numbers separated by a comma and space
- *              while following the specified style guide.
+ * Description: Generate pairs of two-digit numbers separated by
+ * a comma and space while following the specified style guide.
  *
  * Return: Always 0 (Success)
  */
