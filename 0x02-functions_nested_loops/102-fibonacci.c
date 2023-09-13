@@ -11,7 +11,7 @@ int main(void)
 	int i = 0;
 	long y = 2, x = 1;
 
-	while (i <= 50)
+	while (i < 50)
 	{
 
 		if (i >= 2)
