@@ -16,7 +16,7 @@
 int main(void)
 {
 	int i;
-	long x, y;
+	unsigned long x, y;
 
 	i = 1;
 	x = 1;
