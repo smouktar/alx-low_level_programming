@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
   * print_diagonal - Draws a diagonal lines according parameter
@@ -20,10 +20,10 @@ void print_diagonal(int n)
 		{
 			for (y = 0; y < x; y++)
 			{
-				_putchar(32);
+				_putchar(' ');
 			}
 
-			_putchar(92);
+			_putchar('\\');
 			_putchar('\n');
 		}
 	}
