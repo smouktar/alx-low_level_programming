@@ -1,7 +1,7 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
-  * _strchr - locate character in string
+  * _strchr - search for  character in string
   * @s: source string
   * @c: character to find
   *
