@@ -1,26 +1,25 @@
-/*
- * File: 5-flip_bits.c
- */
-
+#include <stdlib.h>
 #include "main.h"
 
 /**
- * flip_bits - Counts the number of bits needed to be
- *             flipped to get from one number to another.
- * @n: The number.
- * @m: The number to flip n to.
- *
- * Return: The necessary number of bits to flip to get from n to m.
- */
+  * flip_bits - ...
+  * @n: ...
+  * @m: ...
+  *
+  * Return: ...
+  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned long int xor = n ^ m, bits = 0;
+	unsigned long int mask = 0, count = 0;
 
-	while (xor > 0)
+	mask = n ^ m;
+	while (mask)
 	{
-		bits += (xor & 1);
-		xor >>= 1;
+		if (mask & 1)
+			count++;
+
+		mask >>= 1;
 	}
 
-	return (bits);
+	return (count);
 }
