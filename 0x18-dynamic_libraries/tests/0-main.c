@@ -1,4 +1,4 @@
-#include "../holberton.h"
+#include "../main.h"
 #include <stdio.h>
 
 /**
@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-	printf("%d\n", _strlen("Holberton"));
+	printf("%d\n", _strlen("My Dny Lib"));
 	return (EXIT_SUCCESS);
 }
