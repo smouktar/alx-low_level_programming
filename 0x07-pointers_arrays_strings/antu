@@ -1,0 +1,7 @@
+#!/bin/bash
+
+STRINGS="$(strings crackme2)"
+for STRING in $STRINGS; do
+    cp crackme b.out
+    RESULT="$(./b.out $STRING)"
+   
